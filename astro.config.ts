@@ -215,5 +215,12 @@ export default defineConfig({
 				),
 			},
 		},
+		optimizeDeps: {
+			include: [
+				"cf-json-schema-viz",
+				"@stoplight/json-schema-tree",
+				"@stoplight/json",
+			],
+		},
 	},
 });
