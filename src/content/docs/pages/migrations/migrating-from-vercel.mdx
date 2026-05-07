@@ -15,6 +15,10 @@ import { Render } from "~/components";
 
 In this tutorial, you will learn how to deploy your Vercel application to Cloudflare Pages.
 
+:::note
+Cloudflare recommends [migrating from Vercel to Workers](/workers/static-assets/migration-guides/vercel-to-workers/) instead of Pages. Workers supports serverless functions, server-side rendering and more platform features such as [Durable Objects](/durable-objects/) and [built-in observability](/workers/observability/).
+:::
+
 You should already have an existing project deployed on Vercel that you would like to host on Cloudflare Pages. Features such as Vercel's serverless functions are currently not supported in Cloudflare Pages.
 
 ## Find your build command and build directory
